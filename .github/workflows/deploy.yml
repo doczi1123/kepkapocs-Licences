@@ -1,0 +1,26 @@
+name: Publikálás GitHub Pages-re gyökérből
+
+on:
+  push:
+    branches:
+      - master  # Ha nálad a főág neve 'main', itt cseréld le
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Repo beolvasása
+        uses: actions/checkout@v3
+
+      - name: Viewer fájlok kimásolása gyökérbe
+        run: |
+          mkdir _site
+          cp viewer_licences_only/pairs.json _site/
+          cp viewer_licences_only/pairs.siget _site/
+          cp viewer_licences_only/public.pem _site/
+
+      - name: Publikálás GitHub Pages-re
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: _site
