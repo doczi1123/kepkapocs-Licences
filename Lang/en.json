@@ -1,0 +1,20 @@
+{
+  "FormTitle": "Registration",
+  "Language": "Language",
+  "MachineID": "Machine ID",
+  "Name": "Contact Person",
+  "Email": "Email Address",
+  "Company": "Billing Name",
+  "BillingAddress": "Billing Address",
+  "TaxID": "Tax ID",
+  "Country": "Country",
+  "Submit": "Submit",
+  "Exit": "Exit",
+  "ConfirmExit": "Are you sure you want to close the form?",
+  "MissingFieldsTitle": "Missing Fields",
+  "MissingFields": "Please fill in all required fields.",
+  "Success": "Registration Successful",
+  "Thanks": "Thank you! Your data has been received.",
+  "Fail": "Submission Failed",
+  "FailText": "An error occurred while sending data."
+}
