@@ -3,7 +3,7 @@ name: Publikálás GitHub Pages-re gyökérből
 on:
   push:
     branches:
-      - master  # Ha nálad a főág neve 'main', itt cseréld le
+      - master
 
 jobs:
   deploy:
@@ -18,6 +18,11 @@ jobs:
           cp viewer_licences_only/pairs.json _site/
           cp viewer_licences_only/pairs.siget _site/
           cp viewer_licences_only/public.pem _site/
+
+      - name: Git konfigurálása
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
       - name: Publikálás GitHub Pages-re
         uses: peaceiris/actions-gh-pages@v3
