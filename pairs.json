@@ -1,7 +1,8 @@
-{
-  "uploader_id": "SAMPLE-UPLOADER-ID",
-  "viewer_id": "SAMPLE-VIEWER-ID",
-  "event": "Teszt rendezv\u00e9ny",
-  "valid_until": "2025-12-31",
-  "registration_start": "2025-07-22"
-}
+[
+  {
+    "uploader_id": "2130e4cb69d31ce33dacb33aa6491dc922295b5cab7c6ee15c032f6f1658ef6c",
+    "viewer_id": "VIEWER-C1E9B25C52",
+    "valid_until": "2026-07-22",
+    "registration_start": "2025-07-22 11:22"
+  }
+]
