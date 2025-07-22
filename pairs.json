@@ -1,14 +1,8 @@
 [
   {
-    "uploader_id": "2130e4cb69d31ce33dacb33aa691dc922295b5cab7c6ee15c032f6f1658ef6c",
-    "viewer_id": "VIEWER-EB17C43E3C",
+    "uploader_id": "2130e4cb69d31ce33dacb33aa6491dc922295b5cab7c6ee15c032f6f1658ef6c",
+    "viewer_id": "VIEWER-2B639C23D1",
     "valid_until": "2026-07-22",
-    "registration_start": "2025-07-22 16:03"
-  },
-  {
-    "uploader_id": "2130e4cb69d31ce33dacb33aa6491dc922295b5cac6ee15c032f6f1658ef6c",
-    "viewer_id": "VIEWER-812FEDB432",
-    "valid_until": "2026-07-22",
-    "registration_start": "2025-07-22 16:06"
+    "registration_start": "2025-07-22 16:12"
   }
 ]
